@@ -26,7 +26,7 @@
 
 2. Add a new student:
     ```bash
-    curl -X POST http://localhost:8080/students -H "Content-Type: application/json" -d '{"nrp": 12345678, "name": "John Doe", "major": "Management", "gpa": 3.11}'
+    curl -X POST http://localhost:8080/students -H "Content-Type: application/json" -d '{"nrp": "12345678", "name": "John Doe", "major": "Management", "gpa": 3.11}'
     ```
 
 3. Fetch specific student based on NRP:
